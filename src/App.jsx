@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="App">
       <TaskCreate onCreate={createTask} />
-      <p class="h2 fw-bold">PLEASE EDIT TASK!</p>{" "}
+      <p class="h2 fw-bold">TASKS</p>{" "}
       <TaskList
         tasks={tasks}
         onDelete={deleteTaskById}
